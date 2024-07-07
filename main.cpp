@@ -6,7 +6,6 @@ int main()
     int numb = 0;
     printf("Enter a natural number n: ");
     scanf("%d", &n);
-
     for (int i = 1; i <= n; i++)
     {
         if (n % i == n / i)
@@ -14,7 +13,6 @@ int main()
             numb++;
         }
     }
-
     printf("The number of equal divisors of a number %d: %d\n", n, numb);
 
     return 0;
